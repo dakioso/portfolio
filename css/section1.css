@@ -26,3 +26,12 @@
   font-weight: 400;
   text-align: center;
 }
+
+.section1 img {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  opacity: 0.3;
+  height: 50px;
+  width: 50px;
+}
