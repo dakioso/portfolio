@@ -12,6 +12,7 @@
 
 .section2-box {
   border: 2px solid white;
-  width: 100px;
-  height: 200px;
+  width: 500px;
+  height: 500px;
+  margin: 20px;
 }
