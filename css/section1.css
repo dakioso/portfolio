@@ -1,3 +1,7 @@
+body {
+  font-family: "lato", sans-serif;
+}
+
 .section1 {
   background: url(../img/header2.jpg);
   height: 100vh;
@@ -14,9 +18,9 @@
   font-size: 4em;
   color: white;
   text-shadow: 2px 2px #000000;
-  font-family: "lato", sans-serif;
   font-weight: 700;
   letter-spacing: 3px;
+  opacity: 0.7;
 }
 
 .section1 h3 {
@@ -25,6 +29,7 @@
   font-family: "lato", sans-serif;
   font-weight: 400;
   text-align: center;
+  opacity: 0.7;
 }
 
 .section1 img {
@@ -34,4 +39,13 @@
   opacity: 0.3;
   height: 50px;
   width: 50px;
+}
+
+.section {
+  position: relative;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
 }
