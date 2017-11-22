@@ -16,13 +16,6 @@
   display: flex;
   justify-content: center;
 }
-.section2 h1 {
-  color: white;
-  text-align: center;
-  margin: 0 auto 40px;
-  font-size: 3em;
-  font-weight: 700;
-}
 .section2-box {
   width: 250px;
   height: 250px;
