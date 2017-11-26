@@ -1,55 +1,83 @@
 .section2 {
-  background: black;
+  background: lightgray;
   height: 100vh;
   width: 100vw;
-  position: relative;
+
 }
 .section2-wrapper {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   height: 100vh;
-  padding: 30px;
-  box-sizing: border-box;
-}
-.section2-box-wrapper {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
 }
-.section2-box {
-  width: 250px;
-  height: 250px;
-  margin: 20px;
+
+.section2-item {
+  /*border: 2px solid lightgray;*/
+  width: 50%;
+  height: auto;
+  margin: 20px 0;
+  text-align: center;
+}
+h2 {
+  margin-top: 0;
+}
+
+.section2-box1 h2 {
+  text-align: center;
+  font-size: 2em;
+}
+.section2-box1 p {
+  font-size: 1.5em;
   text-align: center;
 }
 
-.section2 img {
-  width: 40px;
-  height: 40px;
+/*.section2-box2 {
+  border: 2px solid lightgray;
+  width: 500px;
+  height: 500px;
+  margin: 20px 0 85px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}*/
+.section2-box2 #box2-picture {
+  border: 1px solid lightgray;
+  width: 250px;
+  height: auto;
+  margin: 0 auto;
+}
+#box2-picture img {
+  width: 100%;
+  border-radius: 50%;
 }
 
-.html-logo {
-  height: 100%;
-  width: 100%;
-  background: url('../img/html5.png') no-repeat;
-  background-position: center;
-  background-size: contain;
+.section2-box2 {
+  order: 2;
 }
-.css-logo {
-  height: 100%;
+.section2-box2 #box2-qoute {
+  border: 1px solid lightgray;
   width: 100%;
-  background: url('../img/css3.png') no-repeat;
-  background-position: center;
-  background-size: 94%;
+  height: 100px;
+  padding: 15px;
+  text-align: center;
+  font-style: italic;
 }
 
-.js-logo {
-  height: 100%;
-  width: 100%;
-  background: url('../img/js.png') no-repeat;
-  background-position: center;
-  background-size: 95%;
-}
-* {
-  box-sizing: border-box;
+@media screen and (max-width: 500px) {
+  .section2-wrapper {
+    flex-direction: column;
+    font-size: 15px;
+    margin: 0 10px 0 10px;
+  }
+  .section2-box1 {
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+  }
+  .section2-box2 {
+    width: 90%;
+  }
 }
