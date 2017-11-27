@@ -53,9 +53,7 @@ h2 {
 }
 
 @media screen and (max-width: 500px) {
-  .section2 {
-    flex-wrap: nowrap;
-  }
+
   .section2-wrapper {
     flex-direction: column;
     font-size: 15px;
@@ -69,7 +67,7 @@ h2 {
     font-size: 10px;
   }
   .section2-box2 {
-    width: 50%;
+    width: 90%;
     order: 0;
   }
 
