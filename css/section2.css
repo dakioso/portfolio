@@ -5,7 +5,7 @@
 
 }
 .section2-wrapper {
-  height: 100vh;
+  /* height: 100vh; */
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -85,6 +85,7 @@ h2 {
   .section2-item {
     flex-wrap: wrap;
     margin: 0 -23px -47px 15px;
+    padding-bottom: 65px;
   }
 
   #box2-qoute h3 {
