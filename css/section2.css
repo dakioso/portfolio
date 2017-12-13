@@ -1,6 +1,6 @@
 .section2 {
   background: #E6E6E6;
-  height: 100vh;
+  height: auto;
   width: 100vw;
 
 }
@@ -25,7 +25,8 @@ h2 {
 
 .section2-box1 h2 {
   text-align: center;
-  font-size: 2em;
+  font-size: 2.5em;
+  padding: 25px;
 }
 .section2-box1 p {
   font-size: 1.5em;
@@ -58,6 +59,7 @@ h2 {
 #box2-qoute h3 {
   font-weight: normal;
   font-style: italic;
+  font-size: 1.3em;
 }
 
 /* Mobile responsivness */
@@ -91,5 +93,9 @@ h2 {
 
   #box2-qoute {
     padding: 0;
+  }
+
+  .section2-box1 h2{
+    padding: 10px;
   }
 }
