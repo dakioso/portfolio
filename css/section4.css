@@ -3,7 +3,7 @@
   width: 100%;
   position: relative;
   /*background: rgba(255,0,150,0.3) url("../img/header.jpg") no-repeat;*/
-  background: linear-gradient(0deg,rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("../img/header.jpg");
+  background: linear-gradient(0deg,rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("../img/contactme.jpg");
   background-size: cover;
 }
 
@@ -16,9 +16,6 @@
   box-sizing: border-box;
   padding: 70px 0;
 }
-
-
-
 
 .section4 h1 {
   color: white;
@@ -95,6 +92,10 @@ textarea {
   box-sizing: border-box;
 }
 
+.contain-wrapper {
+  display: flex;
+  justify-content: space-around;
+}
 
 /* Icon style footer */
 
@@ -132,6 +133,8 @@ textarea {
     color: #913399;
 }
 
+/* Mobile responsivness */
+
 @media screen and (max-width: 700px) {
   .section4 h1 {
     font-size: 2em;
@@ -139,5 +142,10 @@ textarea {
 
   .container {
     padding: 20px;
+  }
+
+  #myFooter {
+    position: absolute;
+    bottom: 5px;
   }
 }
