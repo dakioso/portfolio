@@ -1,3 +1,5 @@
+// Smooth scroll function
+
 $(document).on('click', 'a[href^="#"]', function (event) {
     event.preventDefault();
 
@@ -5,6 +7,9 @@ $(document).on('click', 'a[href^="#"]', function (event) {
         scrollTop: $($.attr(this, 'href')).offset().top
     }, 1200);
 });
+
+
+// Contact form function
 
 $('#send-message').click(function(e){
 
