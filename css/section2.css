@@ -5,11 +5,12 @@
 
 }
 .section2-wrapper {
-  /* height: 100vh; */
+  height: 100vh;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   align-items: center;
+  padding: 55px;
 }
 
 .section2-item {
@@ -27,6 +28,7 @@ h2 {
   text-align: center;
   font-size: 2.5em;
   padding: 25px;
+  font-weight: bold;
 }
 .section2-box1 p {
   font-size: 1.5em;
@@ -70,6 +72,7 @@ h2 {
     /*flex-direction: column;*/
     font-size: 15px;
     margin: 0 10px 0 10px;
+    height: auto;
 
   }
   .section2-box1 {
